@@ -44,7 +44,7 @@ const Home = () => {
     useEffect(() => {
         OneSignal.Debug.setLogLevel(LogLevel.Verbose);
         // OneSignal Initialization
-        OneSignal.initialize("32640119-37e1-43f0-8668-937283835d0c");
+        OneSignal.initialize('fa2b08c3-8187-4bdd-aa33-40295af1c694');
 
         // requestPermission will show the native iOS or Android notification permission prompt.
         // We recommend removing the following code and instead using an In-App Message to prompt for notification permission
